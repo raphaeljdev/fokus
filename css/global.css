@@ -1,0 +1,30 @@
+@font-face {
+  font-family: 'Unbounded-ExtraLight';
+  src: url(../fonts/Unbounded-ExtraLight.ttf);
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Unbounded-Regular';
+  src: url(../fonts/Unbounded-Regular.ttf);
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --background-primary-color: #1875E9; 
+  --background-secondary-color: #041832; 
+  --background-tertiary-color: #01080E; 
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(to bottom, var(--background-primary-color), var(--background-secondary-color), var(--background-tertiary-color));
+  min-height: 100vh;
+}
